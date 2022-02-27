@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:emojicon="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_small"
+        app:cardCornerRadius="@dimen/spacing_small"
+        app:cardElevation="@dimen/spacing_xsmall"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/cardContainer">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/itemBodyContainer">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp" >
+
+                    <ImageView
+                        android:id="@+id/image_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/icon_tint"
+                        android:scaleType="centerCrop">
+
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/pin_image_view"
+                        android:layout_width="?attr/actionBarSize"
+                        android:layout_height="?attr/actionBarSize"
+                        android:layout_alignStart="@+id/image_view"
+                        android:adjustViewBounds="true"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:contentDescription="@string/app_name"
+                        android:padding="15dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_pin"
+                        android:visibility="visible"
+                        app:tint="@color/white" />
+
+                    <com.vanniktech.emoji.EmojiTextView
+                        android:id="@+id/text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/spacing_mlarge"
+                        android:layout_marginTop="?attr/actionBarSize"
+                        android:layout_marginEnd="@dimen/spacing_mlarge"
+                        android:layout_marginBottom="?attr/actionBarSize"
+                        android:gravity="center"
+                        android:text="@string/placeholder_new_item_text"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/more_image_button"
+                        android:layout_width="?attr/actionBarSize"
+                        android:layout_height="?attr/actionBarSize"
+                        android:layout_alignEnd="@+id/image_view"
+                        android:adjustViewBounds="true"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:focusable="true"
+                        android:padding="15dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_horizontal_popup"
+                        android:visibility="visible"
+                        app:tint="@color/white" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/gray_bg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@+id/cardFooterContainer">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/card_margin"
+                    android:paddingTop="@dimen/card_margin"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/time_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/card_margin" >
+
+                            <ImageView
+                                android:layout_width="12dp"
+                                android:layout_height="12dp"
+                                android:layout_margin="3dp"
+                                android:src="@drawable/ic_time"
+                                app:tint="@color/item_action_icon_tint">
+
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/item_time"
+                                android:text="1 minute ago"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="0dp"
+                                android:padding="0dp"
+                                android:gravity="start"
+                                android:maxLines="1"
+                                android:ellipsize="end"
+                                android:textSize="12sp"
+                                android:textColor="@color/grey_80"
+                                android:clickable="false" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/location_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/card_margin" >
+
+                            <ImageView
+                                android:layout_width="12dp"
+                                android:layout_height="12dp"
+                                android:layout_margin="3dp"
+                                android:src="@drawable/ic_nearby"
+                                app:tint="@color/item_action_icon_tint">
+
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/item_location"
+                                android:text="New York"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="0dp"
+                                android:padding="0dp"
+                                android:gravity="start"
+                                android:maxLines="1"
+                                android:ellipsize="end"
+                                android:textSize="12sp"
+                                android:textColor="@color/grey_80"
+                                android:clickable="false" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    style="@style/MyRippleStyleDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/itemCommentButton">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <ImageView
+                            android:id="@+id/itemCommentImg"
+                            android:layout_height="40dp"
+                            android:layout_width="40dp"
+                            android:clickable="false"
+                            android:padding="5dp"
+                            app:srcCompat="@drawable/ic_comment_3"
+                            app:tint="@color/item_action_icon_tint" />
+
+                        <TextView
+                            android:text="123"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/item_comments_count"
+                            android:clickable="false" />
+
+                    </LinearLayout>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    style="@style/MyRippleStyleDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/itemLikeButton">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <ImageView
+                            android:id="@+id/itemLikeImg"
+                            android:layout_height="40dp"
+                            android:layout_width="40dp"
+                            android:clickable="false"
+                            android:padding="5dp"
+                            app:srcCompat="@drawable/ic_like" />
+
+                        <TextView
+                            android:text="123"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/item_likes_count"
+                            android:clickable="false" />
+
+                    </LinearLayout>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

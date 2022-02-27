@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable-v21/button_white.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable/button_signup.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable/button_signup_default.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable/button_signup_presed.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable/button_white.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable/button_white_default.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable/button_white_presed.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable/dialog_comments_bg.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable/ic_filter_white.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable/navigation_drawer_selector.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable/profile_photo.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable/search_box.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable/search_cursor.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable/seek_thumb_primary_outline.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/drawable/shape_circle.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/activity_app.xml" value="0.3903985507246377" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/activity_black_list.xml" value="0.39492753623188404" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/activity_chat.xml" value="0.37273550724637683" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/activity_dialogs.xml" value="0.37273550724637683" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/activity_item_new.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/activity_main.xml" value="0.3903985507246377" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/activity_nearby.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/activity_photo_view.xml" value="0.39356884057971014" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/activity_video_view.xml" value="0.23125" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/activity_view_image.xml" value="0.379981884057971" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/activity_view_item.xml" value="0.379981884057971" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/ad_item.xml" value="0.23125" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/blacklist_row.xml" value="0.23125" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/chat_left_item_list_row.xml" value="0.23125" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/chat_list_row.xml" value="0.23125" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/chat_listview_header.xml" value="0.3813405797101449" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/dialog_color_picker.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/dialog_feelings.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/dialog_flow_filters.xml" value="0.379981884057971" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/dialog_post.xml" value="0.23125" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/dialog_search_settings.xml" value="0.379981884057971" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/dialog_stickers.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/emojicons.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/feeling_thumbnail.xml" value="0.365036231884058" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_black_list.xml" value="0.39492753623188404" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_chat.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_favorites.xml" value="0.379981884057971" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_feed.xml" value="0.23125" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_flow.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_item_new.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_likers.xml" value="0.37273550724637683" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_login.xml" value="0.3795289855072464" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_new_item.xml" value="0.23125" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_notifications.xml" value="0.37273550724637683" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_services.xml" value="0.3795289855072464" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_settings.xml" value="0.37273550724637683" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_signup.xml" value="0.3795289855072464" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_upgrades.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_view_image.xml" value="0.23125" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/fragment_view_item.xml" value="0.379981884057971" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/item_action_sheet_list.xml" value="0.379981884057971" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/item_black_list_row.xml" value="0.39492753623188404" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/item_comment_list_row.xml" value="0.23125" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/item_dialog_list_row.xml" value="0.37273550724637683" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/item_editor_sheet_list.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/item_group_list_row.xml" value="0.23125" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/item_list_row.xml" value="0.3686594202898551" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/media_viewer_item.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/menu_counter_plain.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/menu_toolbar_messenger.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/profile_sheet_list.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/reason_input_dialog.xml" value="0.39492753623188404" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/register_screen_1.xml" value="0.3795289855072464" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/search_listview_header.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/start_wizard.xml" value="0.3903985507246377" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/tab_layout.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/text_input_dialog.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/user_grid_row.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/layout/view_item_list_row.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_account_settings.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_app.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_black_list.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_chat.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_dialogs.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_drawer.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_main.xml" value="0.23125" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_photo_view.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_report.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_search.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_services.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_settings.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_signup.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_view_item.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/menu/menu_web_view.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/xml/notifications_settings.xml" value="0.37273550724637683" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/xml/privacy_settings.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/Anonymo/app/src/main/res/xml/settings.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable-v21/button_primary.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/button_blue.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/button_blue_default.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/button_blue_presed.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/button_gray.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/button_gray_default.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/button_primary.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_register.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_services.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_gallery.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_login.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_profile.xml" value="0.30842391304347827" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_services.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_upgrades.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/item_list_row.xml" value="0.30842391304347827" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/item_media_row.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/register_screen_1.xml" value="0.4" />
+        <entry key="..\:/Users/mynam/Videos/Jsons/Anonymo/client/client/app/src/main/res/layout/about_dialog.xml" value="0.2966485507246377" />
+        <entry key="..\:/Users/mynam/Videos/Jsons/Anonymo/client/client/app/src/main/res/layout/ad_item.xml" value="0.2966485507246377" />
+        <entry key="..\:/Users/mynam/Videos/Jsons/Anonymo/client/client3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.31979166666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
